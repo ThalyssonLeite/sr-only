@@ -4,7 +4,7 @@ Hide labels and titles (and everything else inside the html) that you just want 
 We are going to use the in the HTML tag the class="sr-only".
 And in the CSS the selector:
 
-.sr-only {
+<p>.sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -14,6 +14,6 @@ And in the CSS the selector:
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-}
+}</p>
 
 * sr-only stands for "screen reader only"
